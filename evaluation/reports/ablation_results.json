@@ -1,0 +1,72 @@
+{
+  "ALS": {
+    "hr_10": 0.016,
+    "hr_50": 0.028,
+    "ndcg_50": 0.00257,
+    "recall_50": 0.006302,
+    "coverage": 0,
+    "candidate_recall_50": 0.0,
+    "candidate_recall_100": 0.0,
+    "candidate_recall_500": 0.14
+  },
+  "CBF": {
+    "hr_10": 0.008,
+    "hr_50": 0.008,
+    "ndcg_50": 0.000916,
+    "recall_50": 0.001371,
+    "coverage": 0,
+    "candidate_recall_50": 0.008,
+    "candidate_recall_100": 0.024,
+    "candidate_recall_500": 0.104
+  },
+  "Neural": {
+    "hr_10": 0.02,
+    "hr_50": 0.024,
+    "ndcg_50": 0.001696,
+    "recall_50": 0.002302,
+    "coverage": 0,
+    "candidate_recall_50": 0.0,
+    "candidate_recall_100": 0.0,
+    "candidate_recall_500": 0.14
+  },
+  "SASRec": {
+    "hr_10": 0.0,
+    "hr_50": 0.0,
+    "ndcg_50": 0.0,
+    "recall_50": 0.0,
+    "coverage": 0,
+    "candidate_recall_50": 0.0,
+    "candidate_recall_100": 0.0,
+    "candidate_recall_500": 0.064
+  },
+  "ALS+SASRec": {
+    "hr_10": 0.0,
+    "hr_50": 0.0,
+    "ndcg_50": 0.0,
+    "recall_50": 0.0,
+    "coverage": 0,
+    "candidate_recall_50": 0.0,
+    "candidate_recall_100": 0.0,
+    "candidate_recall_500": 0.0
+  },
+  "ALS+CBF+SASRec": {
+    "hr_10": 0.0,
+    "hr_50": 0.0,
+    "ndcg_50": 0.0,
+    "recall_50": 0.0,
+    "coverage": 0,
+    "candidate_recall_50": 0.0,
+    "candidate_recall_100": 0.0,
+    "candidate_recall_500": 0.024
+  },
+  "ALL": {
+    "hr_10": 0.0,
+    "hr_50": 0.0,
+    "ndcg_50": 0.0,
+    "recall_50": 0.0,
+    "coverage": 0,
+    "candidate_recall_50": 0.0,
+    "candidate_recall_100": 0.0,
+    "candidate_recall_500": 0.024
+  }
+}

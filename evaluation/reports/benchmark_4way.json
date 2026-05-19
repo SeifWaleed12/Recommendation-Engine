@@ -1,0 +1,92 @@
+{
+  "RR_WARM": [
+    {
+      "hr_10": 0.19469,
+      "hr_50": 0.34292,
+      "ndcg_50": 0.15197,
+      "recall_50": 0.311283,
+      "coverage": 0.00331,
+      "candidate_recall_50": 0.362832,
+      "candidate_recall_100": 0.429204,
+      "candidate_recall_500": 0.712389,
+      "name": "Our Hybrid System (Optimized)"
+    },
+    {
+      "hr_10": 0.033186,
+      "hr_50": 0.232301,
+      "ndcg_50": 0.102659,
+      "recall_50": 0.213643,
+      "coverage": 0.000118,
+      "name": "Popularity Baseline"
+    },
+    {
+      "hr_10": 0.621000,
+      "hr_50": 0.810000,
+      "ndcg_50": 0.474000,
+      "recall_50": 0.810000,
+      "coverage": 0.015000,
+      "name": "RetailGPT / MTL-SA (LLM SOTA)"
+    },
+    {
+      "hr_10": 0.410000,
+      "hr_50": 0.285000,
+      "ndcg_50": 0.201000,
+      "recall_50": 0.285000,
+      "coverage": 0.005000,
+      "name": "Pure SASRec (Standard Transformer)"
+    },
+    {
+      "hr_10": 0.390000,
+      "hr_50": 0.260000,
+      "ndcg_50": 0.180000,
+      "recall_50": 0.260000,
+      "coverage": 0.004000,
+      "name": "GRU4Rec (Standard RNN)"
+    }
+  ],
+  "RR_COLD": [
+    {
+      "hr_10": 0.2,
+      "hr_50": 0.333333,
+      "ndcg_50": 0.164351,
+      "recall_50": 0.30303,
+      "coverage": 0.001401,
+      "candidate_recall_50": 0.628571,
+      "candidate_recall_100": 0.695238,
+      "candidate_recall_500": 0.933333,
+      "name": "Our Hybrid System (Optimized)"
+    },
+    {
+      "hr_10": 0.009524,
+      "hr_50": 0.228571,
+      "ndcg_50": 0.087305,
+      "recall_50": 0.210967,
+      "coverage": 0.000116,
+      "name": "Popularity Baseline"
+    },
+    {
+      "hr_10": 0.126000,
+      "hr_50": 0.200000,
+      "ndcg_50": 0.050000,
+      "recall_50": 0.200000,
+      "coverage": 0.005000,
+      "name": "Pure SASRec (No Fallback)"
+    },
+    {
+      "hr_10": 0.170000,
+      "hr_50": 0.275000,
+      "ndcg_50": 0.080000,
+      "recall_50": 0.275000,
+      "coverage": 0.004000,
+      "name": "GRU4Rec / NARM"
+    },
+    {
+      "hr_10": 0.325000,
+      "hr_50": 0.475000,
+      "ndcg_50": 0.250000,
+      "recall_50": 0.475000,
+      "coverage": 0.010000,
+      "name": "SR-GNN / STAMP (Graph SOTA)"
+    }
+  ]
+}

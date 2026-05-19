@@ -1,0 +1,90 @@
+{
+  "RR_WARM": [
+    {
+      "hr_10": 0.19,
+      "hr_50": 0.21,
+      "ndcg_50": 0.066265,
+      "recall_50": 0.052018,
+      "coverage": 0.007658,
+      "name": "Our Hybrid System (Optimized)"
+    },
+    {
+      "hr_10": 0.0,
+      "hr_50": 0.0,
+      "ndcg_50": 0.0,
+      "recall_50": 0.0,
+      "coverage": 0.000113,
+      "name": "Popularity Baseline"
+    },
+    {
+      "hr_10": 0.004,
+      "hr_50": 0.01,
+      "ndcg_50": 0.000855,
+      "recall_50": 0.002366,
+      "coverage": 0.020579,
+      "name": "User-Based CF Baseline"
+    }
+  ],
+  "RR_COLD": [
+    {
+      "hr_10": 0.134021,
+      "hr_50": 0.140893,
+      "ndcg_50": 0.060011,
+      "recall_50": 0.048135,
+      "coverage": 0.003614,
+      "name": "Our Hybrid System (Optimized)"
+    },
+    {
+      "hr_10": 0.0,
+      "hr_50": 0.0,
+      "ndcg_50": 0.0,
+      "recall_50": 0.0,
+      "coverage": 0.000113,
+      "name": "Popularity Baseline"
+    }
+  ],
+  "AMZ_WARM": [
+    {
+      "hr_10": 0.03,
+      "hr_50": 0.076,
+      "ndcg_50": 0.026526,
+      "recall_50": 0.057876,
+      "coverage": 0.006887,
+      "name": "Our Hybrid System (Optimized)"
+    },
+    {
+      "hr_10": 0.006,
+      "hr_50": 0.018,
+      "ndcg_50": 0.004667,
+      "recall_50": 0.013059,
+      "coverage": 0.000118,
+      "name": "Popularity Baseline"
+    },
+    {
+      "hr_10": 0.03,
+      "hr_50": 0.046,
+      "ndcg_50": 0.012789,
+      "recall_50": 0.020801,
+      "coverage": 0.016865,
+      "name": "User-Based CF Baseline"
+    }
+  ],
+  "AMZ_COLD": [
+    {
+      "hr_10": 0.006849,
+      "hr_50": 0.020548,
+      "ndcg_50": 0.00417,
+      "recall_50": 0.006507,
+      "coverage": 0.003178,
+      "name": "Our Hybrid System (Optimized)"
+    },
+    {
+      "hr_10": 0.0,
+      "hr_50": 0.006849,
+      "ndcg_50": 0.001325,
+      "recall_50": 0.006849,
+      "coverage": 0.000116,
+      "name": "Popularity Baseline"
+    }
+  ]
+}
